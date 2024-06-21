@@ -18,12 +18,12 @@
       "enabled": true
     },
     {
-      "key": "accountGroupId",
+      "key": "integrationId",
       "value": "45",
       "enabled": true
     },
     {
-      "key": "accountId",
+      "key": "configurationId",
       "value": "25",
       "enabled": true
     },

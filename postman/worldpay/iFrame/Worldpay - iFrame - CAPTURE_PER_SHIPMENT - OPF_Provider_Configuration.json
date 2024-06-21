@@ -29,7 +29,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{rootUrl}}/{{service}}/merchant/accountgroups/{{accountGroupId}}/accounts/{{accountId}}/variables",
+							"raw": "{{rootUrl}}/{{service}}/merchant/accountgroups/{{integrationId}}/accounts/{{configurationId}}/variables",
 							"host": [
 								"{{rootUrl}}"
 							],
@@ -37,9 +37,9 @@
 								"{{service}}",
 								"merchant",
 								"accountgroups",
-								"{{accountGroupId}}",
+								"{{integrationId}}",
 								"accounts",
-								"{{accountId}}",
+								"{{configurationId}}",
 								"variables"
 							]
 						}
@@ -67,7 +67,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{rootUrl}}/{{service}}/merchant/accountgroups/{{accountGroupId}}/accounts/{{accountId}}/variables",
+							"raw": "{{rootUrl}}/{{service}}/merchant/accountgroups/{{integrationId}}/accounts/{{configurationId}}/variables",
 							"host": [
 								"{{rootUrl}}"
 							],
@@ -75,9 +75,9 @@
 								"{{service}}",
 								"merchant",
 								"accountgroups",
-								"{{accountGroupId}}",
+								"{{integrationId}}",
 								"accounts",
-								"{{accountId}}",
+								"{{configurationId}}",
 								"variables"
 							]
 						}
@@ -87,10 +87,10 @@
 			]
 		},
 		{
-			"name": "Account",
+			"name": "Configuration",
 			"item": [
 				{
-					"name": "Account Patch",
+					"name": "Configuration Patch",
 					"request": {
 						"method": "PATCH",
 						"header": [
@@ -110,7 +110,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{rootUrl}}/{{service}}/merchant/accountgroups/{{accountGroupId}}/accounts/{{accountId}}",
+							"raw": "{{rootUrl}}/{{service}}/merchant/accountgroups/{{integrationId}}/accounts/{{configurationId}}",
 							"host": [
 								"{{rootUrl}}"
 							],
@@ -118,9 +118,9 @@
 								"{{service}}",
 								"merchant",
 								"accountgroups",
-								"{{accountGroupId}}",
+								"{{integrationId}}",
 								"accounts",
-								"{{accountId}}"
+								"{{configurationId}}"
 							]
 						}
 					},
@@ -129,10 +129,10 @@
 			]
 		},
 		{
-			"name": "AccountGroup",
+			"name": "Integration",
 			"item": [
 				{
-					"name": "Account Group Patch",
+					"name": "Integration Patch",
 					"request": {
 						"method": "PATCH",
 						"header": [
@@ -152,7 +152,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{rootUrl}}/{{service}}/merchant/accountgroups/{{accountGroupId}}",
+							"raw": "{{rootUrl}}/{{service}}/merchant/accountgroups/{{integrationId}}",
 							"host": [
 								"{{rootUrl}}"
 							],
@@ -160,7 +160,7 @@
 								"{{service}}",
 								"merchant",
 								"accountgroups",
-								"{{accountGroupId}}"
+								"{{integrationId}}"
 							]
 						}
 					},
@@ -287,7 +287,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{rootUrl}}/{{service}}/merchant/accountgroups/{{accountGroupId}}/accounts/{{accountId}}/notification",
+							"raw": "{{rootUrl}}/{{service}}/merchant/accountgroups/{{integrationId}}/accounts/{{configurationId}}/notification",
 							"host": [
 								"{{rootUrl}}"
 							],
@@ -295,9 +295,9 @@
 								"{{service}}",
 								"merchant",
 								"accountgroups",
-								"{{accountGroupId}}",
+								"{{integrationId}}",
 								"accounts",
-								"{{accountId}}",
+								"{{configurationId}}",
 								"notification"
 							]
 						}
@@ -330,7 +330,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{rootUrl}}/{{service}}/merchant/accountgroups/{{accountGroupId}}/accounts/{{accountId}}/apple_pay",
+							"raw": "{{rootUrl}}/{{service}}/merchant/accountgroups/{{integrationId}}/accounts/{{configurationId}}/apple_pay",
 							"host": [
 								"{{rootUrl}}"
 							],
@@ -338,9 +338,9 @@
 								"{{service}}",
 								"merchant",
 								"accountgroups",
-								"{{accountGroupId}}",
+								"{{integrationId}}",
 								"accounts",
-								"{{accountId}}",
+								"{{configurationId}}",
 								"apple_pay"
 							]
 						}
@@ -373,7 +373,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{rootUrl}}/{{service}}/merchant/accountgroups/{{accountGroupId}}/accounts/{{accountId}}/authorization",
+							"raw": "{{rootUrl}}/{{service}}/merchant/accountgroups/{{integrationId}}/accounts/{{configurationId}}/authorization",
 							"host": [
 								"{{rootUrl}}"
 							],
@@ -381,9 +381,9 @@
 								"{{service}}",
 								"merchant",
 								"accountgroups",
-								"{{accountGroupId}}",
+								"{{integrationId}}",
 								"accounts",
-								"{{accountId}}",
+								"{{configurationId}}",
 								"authorization"
 							]
 						}
@@ -416,7 +416,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{rootUrl}}/{{service}}/merchant/accountgroups/{{accountGroupId}}/accounts/{{accountId}}/google_pay",
+							"raw": "{{rootUrl}}/{{service}}/merchant/accountgroups/{{integrationId}}/accounts/{{configurationId}}/google_pay",
 							"host": [
 								"{{rootUrl}}"
 							],
@@ -424,9 +424,9 @@
 								"{{service}}",
 								"merchant",
 								"accountgroups",
-								"{{accountGroupId}}",
+								"{{integrationId}}",
 								"accounts",
-								"{{accountId}}",
+								"{{configurationId}}",
 								"google_pay"
 							]
 						}
@@ -459,7 +459,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{rootUrl}}/{{service}}/merchant/accountgroups/{{accountGroupId}}/accounts/{{accountId}}/recurrent_authorization",
+							"raw": "{{rootUrl}}/{{service}}/merchant/accountgroups/{{integrationId}}/accounts/{{configurationId}}/recurrent_authorization",
 							"host": [
 								"{{rootUrl}}"
 							],
@@ -467,9 +467,9 @@
 								"{{service}}",
 								"merchant",
 								"accountgroups",
-								"{{accountGroupId}}",
+								"{{integrationId}}",
 								"accounts",
-								"{{accountId}}",
+								"{{configurationId}}",
 								"recurrent_authorization"
 							]
 						}
@@ -502,7 +502,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{rootUrl}}/{{service}}/merchant/accountgroups/{{accountGroupId}}/accounts/{{accountId}}/refund",
+							"raw": "{{rootUrl}}/{{service}}/merchant/accountgroups/{{integrationId}}/accounts/{{configurationId}}/refund",
 							"host": [
 								"{{rootUrl}}"
 							],
@@ -510,9 +510,9 @@
 								"{{service}}",
 								"merchant",
 								"accountgroups",
-								"{{accountGroupId}}",
+								"{{integrationId}}",
 								"accounts",
-								"{{accountId}}",
+								"{{configurationId}}",
 								"refund"
 							]
 						}
@@ -545,7 +545,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{rootUrl}}/{{service}}/merchant/accountgroups/{{accountGroupId}}/accounts/{{accountId}}/settlement",
+							"raw": "{{rootUrl}}/{{service}}/merchant/accountgroups/{{integrationId}}/accounts/{{configurationId}}/settlement",
 							"host": [
 								"{{rootUrl}}"
 							],
@@ -553,9 +553,9 @@
 								"{{service}}",
 								"merchant",
 								"accountgroups",
-								"{{accountGroupId}}",
+								"{{integrationId}}",
 								"accounts",
-								"{{accountId}}",
+								"{{configurationId}}",
 								"settlement"
 							]
 						}

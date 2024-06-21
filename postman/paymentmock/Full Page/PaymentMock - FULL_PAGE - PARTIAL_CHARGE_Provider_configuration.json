@@ -29,7 +29,7 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/variables",
+              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{integrationId}}\/accounts\/{{configurationId}}\/variables",
               "host": [
                 "{{rootUrl}}"
               ],
@@ -40,11 +40,11 @@
                 ,
                 "accountgroups"
                 ,
-                "{{accountGroupId}}"
+                "{{integrationId}}"
                 ,
                 "accounts"
                 ,
-                "{{accountId}}"
+                "{{configurationId}}"
                 ,
                 "variables"
                 
@@ -75,7 +75,7 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/variables",
+              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{integrationId}}\/accounts\/{{configurationId}}\/variables",
               "host": [
                 "{{rootUrl}}"
               ],
@@ -86,11 +86,11 @@
                 ,
                 "accountgroups"
                 ,
-                "{{accountGroupId}}"
+                "{{integrationId}}"
                 ,
                 "accounts"
                 ,
-                "{{accountId}}"
+                "{{configurationId}}"
                 ,
                 "variables"
                 
@@ -105,10 +105,10 @@
     }
     ,
     {
-      "name": "Account",
+      "name": "Configuration",
       "item": [
         {
-          "name": "Account Patch",
+          "name": "Configuration Patch",
           "request": {
             "method": "PATCH",
             "header": [
@@ -128,7 +128,7 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}",
+              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{integrationId}}\/accounts\/{{configurationId}}",
               "host": [
                 "{{rootUrl}}"
               ],
@@ -139,11 +139,11 @@
                 ,
                 "accountgroups"
                 ,
-                "{{accountGroupId}}"
+                "{{integrationId}}"
                 ,
                 "accounts"
                 ,
-                "{{accountId}}"
+                "{{configurationId}}"
                 
               ]
             }
@@ -156,10 +156,10 @@
     }
     ,
     {
-      "name": "AccountGroup",
+      "name": "Integration",
       "item": [
         {
-          "name": "Account Group Patch",
+          "name": "Integration Patch",
           "request": {
             "method": "PATCH",
             "header": [
@@ -179,7 +179,7 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{accountGroupId}}",
+              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{integrationId}}",
               "host": [
                 "{{rootUrl}}"
               ],
@@ -190,7 +190,7 @@
                 ,
                 "accountgroups"
                 ,
-                "{{accountGroupId}}"
+                "{{integrationId}}"
                 
               ]
             }
@@ -284,7 +284,7 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/notification",
+              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{integrationId}}\/accounts\/{{configurationId}}\/notification",
               "host": [
                 "{{rootUrl}}"
               ],
@@ -295,11 +295,11 @@
                 ,
                 "accountgroups"
                 ,
-                "{{accountGroupId}}"
+                "{{integrationId}}"
                 ,
                 "accounts"
                 ,
-                "{{accountId}}"
+                "{{configurationId}}"
                 ,
                 "notification"
                 
@@ -337,7 +337,7 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/settlement",
+              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{integrationId}}\/accounts\/{{configurationId}}\/settlement",
               "host": [
                 "{{rootUrl}}"
               ],
@@ -348,11 +348,11 @@
                 ,
                 "accountgroups"
                 ,
-                "{{accountGroupId}}"
+                "{{integrationId}}"
                 ,
                 "accounts"
                 ,
-                "{{accountId}}"
+                "{{configurationId}}"
                 ,
                 "settlement"
                 
@@ -390,7 +390,7 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/authorization",
+              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{integrationId}}\/accounts\/{{configurationId}}\/authorization",
               "host": [
                 "{{rootUrl}}"
               ],
@@ -401,11 +401,11 @@
                 ,
                 "accountgroups"
                 ,
-                "{{accountGroupId}}"
+                "{{integrationId}}"
                 ,
                 "accounts"
                 ,
-                "{{accountId}}"
+                "{{configurationId}}"
                 ,
                 "authorization"
                 
@@ -443,7 +443,7 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/recurrent_authorization",
+              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{integrationId}}\/accounts\/{{configurationId}}\/recurrent_authorization",
               "host": [
                 "{{rootUrl}}"
               ],
@@ -454,11 +454,11 @@
                 ,
                 "accountgroups"
                 ,
-                "{{accountGroupId}}"
+                "{{integrationId}}"
                 ,
                 "accounts"
                 ,
-                "{{accountId}}"
+                "{{configurationId}}"
                 ,
                 "recurrent_authorization"
                 
@@ -496,7 +496,7 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/refund",
+              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{integrationId}}\/accounts\/{{configurationId}}\/refund",
               "host": [
                 "{{rootUrl}}"
               ],
@@ -507,11 +507,11 @@
                 ,
                 "accountgroups"
                 ,
-                "{{accountGroupId}}"
+                "{{integrationId}}"
                 ,
                 "accounts"
                 ,
-                "{{accountId}}"
+                "{{configurationId}}"
                 ,
                 "refund"
                 
